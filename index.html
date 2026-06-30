@@ -957,3 +957,242 @@ Our Mission
 </div>
 
 </section>
+  <!-- ===========================
+HOW WE WORK
+=========================== -->
+
+<section>
+
+<div class="container">
+
+<div style="text-align:center;margin-bottom:70px;">
+
+<span class="badge">
+
+Our Process
+
+</span>
+
+<h2 style="font-size:42px;margin-top:20px;">
+
+Simple. Professional. Transparent.
+
+</h2>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<h3>01</h3>
+
+<h4>Discovery</h4>
+
+<p>
+
+We begin by understanding your business,
+your technology and your goals.
+
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>02</h3>
+
+<h4>Assessment</h4>
+
+<p>
+
+We analyze your environment and identify
+opportunities for improvement.
+
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>03</h3>
+
+<h4>Recommendations</h4>
+
+<p>
+
+You receive a clear professional report
+without unnecessary technical jargon.
+
+</p>
+
+</div>
+
+<div class="service-card">
+
+<h3>04</h3>
+
+<h4>Implementation</h4>
+
+<p>
+
+We help implement practical solutions
+that improve your business.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" style="background:#F8FAFC;">
+
+<div class="container">
+
+<div style="max-width:700px;margin:auto;text-align:center;">
+
+<span class="badge">
+
+Contact
+
+</span>
+
+<h2 style="font-size:42px;margin:20px 0;">
+
+Let's Build Something Better.
+
+</h2>
+
+<p style="color:#6B7280;font-size:18px;margin-bottom:40px;">
+
+Whether you're starting a new business or
+improving an existing one,
+we'd love to hear from you.
+
+</p>
+
+<a class="btn primary"
+href="mailto:solutionsindie@gmail.com">
+
+Request a Consultation
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer style="background:#111827;color:white;padding:70px 0;">
+
+<div class="container">
+
+<div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px;">
+
+<div>
+
+<h2>
+
+INDIE <span style="color:#3B82F6;">SOLUTIONS</span>
+
+</h2>
+
+<p style="margin-top:15px;color:#9CA3AF;max-width:420px;">
+
+Helping startups and growing businesses
+build secure, reliable and modern
+technology foundations.
+
+</p>
+
+</div>
+
+<div>
+
+<h4 style="margin-bottom:15px;">
+
+Contact
+
+</h4>
+
+<p>
+
+solutionsindie@gmail.com
+
+</p>
+
+</div>
+
+</div>
+
+<hr style="margin:40px 0;border:none;border-top:1px solid #374151;">
+
+<p style="text-align:center;color:#9CA3AF;">
+
+© 2026 Indie Solutions.
+All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<script>
+
+const observer=new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.animate([
+
+{
+
+opacity:0,
+
+transform:"translateY(40px)"
+
+},
+
+{
+
+opacity:1,
+
+transform:"translateY(0)"
+
+}
+
+],{
+
+duration:700,
+
+fill:"forwards"
+
+});
+
+}
+
+});
+
+});
+
+document.querySelectorAll("section").forEach(sec=>{
+
+observer.observe(sec);
+
+});
+
+</script>
+
+</body>
+
+</html>
